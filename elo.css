@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'pt_schoolhousenormal';
+    src: url('ptschoolhouse-webfont.woff2') format('woff2'), url('ptschoolhouse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+BODY {
+    margin: 30px;
+    font-family: 'pt_schoolhousenormal';
+    background-color: black;
+    color: white;
+}
+
+A {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+TH,
+TD {
+    text-align: center;
+    vertical-align: bottom;
+    background-color: black !important;
+}
+
+TD.colWinP {
+    color: #DDD;
+}
+
+.remove {
+    text-decoration: none;
+}
+
+.icon {
+    color: lightskyblue;
+}
+
+.table> :not(caption)>*>* {
+    padding: 15px 0;
+}
+
+.ctable {
+    width: auto !important;
+    background-color: black !important;
+}
+
+.colInitial {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.colInitial INPUT {
+    text-align: center;
+}
+
+.px {
+    display: block;
+    float: left;
+    padding: 5px;
+    width: 35px;
+}
+
+TD.colInitial {
+    padding: 8px 0 10px 0px !important;
+}
+
+.colInitial INPUT {
+    width: 90px;
+}
+
+.colScore {
+    padding: 8px 10px 10px 30px !important;
+}
+
+.colScore2 {
+    width: 40px;
+    text-align: left;
+}
+
+.scoreInput {
+    width: 170px;
+}
+
+.colWin {
+    min-width: 75px;
+    width: 90px;
+}
+
+.colWinP {
+    min-width: 65px;
+    width: 80px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#buttons {
+    padding: 20px 0;
+}
+
+#footer {
+    padding: 20px 0;
+    max-width: 800px;
+}

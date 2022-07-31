@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Hi there, nice to meet you! -->
+
+<head>
+    <title>Match Trophies Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="elo.js"></script>
+    <link href="elo.css" rel="stylesheet" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+    <div id="content">
+        <h1>Match Trophies Calculator</h1>
+        <table class="table table-dark ctable">
+            <thead>
+                <tr>
+                    <th class="colInitial">Player Trophies</th>
+                    <th class="colScore">Score</th>
+                    <th class="colScore2"></th>
+                    <th class="colWin">Win</th>
+                    <th class="colWinP">from P1</th>
+                    <th class="colWinP">from P2</th>
+                    <th class="colWinP">from P3</th>
+                    <th class="colWinP">from P4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="colInitial">
+                        <span class="px">P1:</span> <input class="trophyInput" id="p1trophies" type="number" min="0" max="9999" /> &nbsp;<a id="p1remove" class="remove" href="javascript:"><span class="icon">⌫</span></a>
+                    </td>
+                    <td class="colScore"><input id="p1score" class="scoreInput" type="range" min="0" , max="11" /></td>
+                    <td class="colScore2"><span id="p1scorelabel">0</span></td>
+                    <td class="colWin"><span id="p1winloss" /></td>
+                    <td class="colWinP">-</td>
+                    <td class="colWinP"><span id="p1fromp2" /></td>
+                    <td class="colWinP"><span id="p1fromp3" /></td>
+                    <td class="colWinP"><span id="p1fromp4" /></td>
+                </tr>
+                <tr>
+                    <td class="colInitial">
+                        <span class="px">P2:</span> <input class="trophyInput" id="p2trophies" type="number" min="0" max="9999" /> &nbsp;<a id="p2remove" class="remove" href="javascript:"><span class="icon">⌫</span></a>
+                    </td>
+                    <td class="colScore"><input id="p2score" class="scoreInput" type="range" min="0" max="11" /></td>
+                    <td class="colScore2"><span id="p2scorelabel">0</span></td>
+                    <td class="colWin"><span id="p2winloss" /></td>
+                    <td class="colWinP"><span id="p2fromp1" /></td>
+                    <td class="colWinP">-</td>
+                    <td class="colWinP"><span id="p2fromp3" /></td>
+                    <td class="colWinP"><span id="p2fromp4" /></td>
+                </tr>
+                <tr>
+                    <td class="colInitial">
+                        <span class="px">P3:</span> <input class="trophyInput" id="p3trophies" type="number" min="0" max="9999" /> &nbsp;<a id="p3remove" class="remove" href="javascript:"><span class="icon">⌫</span></a>
+                    </td>
+                    <td class="colScore"><input id="p3score" class="scoreInput" type="range" min="0" max="11" /></td>
+                    <td class="colScore2"><span id="p3scorelabel">0</span></td>
+                    <td class="colWin"><span id="p3winloss" /></td>
+                    <td class="colWinP"><span id="p3fromp1" /></td>
+                    <td class="colWinP"><span id="p3fromp2" /></td>
+                    <td class="colWinP">-</td>
+                    <td class="colWinP"><span id="p3fromp4" /></td>
+                </tr>
+                <tr>
+                    <td class="colInitial">
+                        <span class="px">P4:</span> <input class="trophyInput" id="p4trophies" type="number" min="0" max="9999" /> &nbsp;<a id="p4remove" class="remove" href="javascript:"><span class="icon">⌫</span></a>
+                    </td>
+                    <td class="colScore"><input id="p4score" class="scoreInput" type="range" min="0" max="11" /></td>
+                    <td class="colScore2"><span id="p4scorelabel">0</span></td>
+                    <td class="colWin"><span id="p4winloss" /></td>
+                    <td class="colWinP"><span id="p4fromp1" /></td>
+                    <td class="colWinP"><span id="p4fromp2" /></td>
+                    <td class="colWinP"><span id="p4fromp3" /></td>
+                    <td class="colWinP">-</td>
+                </tr>
+                <tr id="invalid">
+                    <td colspan="8">
+                        <button class="btn btn-warning" type="button">Invalid scenario: players cannot be more than 400 trophies apart.</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="buttons">
+            <button class="btn btn-outline-primary btn-sm" id="reset" type="button">&nbsp;clear&nbsp;</button>
+            <button class="btn btn-outline-success btn-sm" id="randomize" type="button">&nbsp;rng 🤯&nbsp;</button>
+        </div>
+
+        <div id="footer">
+            <h4>Instructions</h4>
+            <ol>
+                <li>Enter the initial trophy count for each player. You can use the <span class="icon">⌫</span> icon to remove players.</li>
+                <li>Enter how many points each player scored (e.g. 0-11 for a 4 players match, 0-7 in a 3p, 0-3 in a 2p).</li>
+                <li>The page updates automatically showing the trophies won in total and from each opponent.</li>
+            </ol>
+
+            <h4>Notes</h4>
+            The number of trophies is calculated using the
+            <a target="elo" href="https://en.wikipedia.org/wiki/Elo_rating_system">Elo rating system</a>. The exact score doesn't affect the calculation: only initial trophies and relative position do. For example, in a 4 players match the finale score
+            <a href="elo.html#s=2000,9,2000,6,1900,6,1900,0">9-6-6-0</a> is equivalent to <a href="elo.html#s=2000,9,2000,6,1900,6,1900,3">9-6-6-3</a> or <a href="elo.html#s=2000,11,2000,2,1900,2,1900,0">11-2-2-0</a>, and in a 2 players match <a href="elo.html#s=2000,3,1700,0">3-0</a>            is equivalent to <a href="elo.html#s=2000,3,1700,2">3-2</a>, etc.
+        </div>
+        <hr />
+        <a href="index.html">&lt; back</a>
+    </div>
+</body>
+
+</html>

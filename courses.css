@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'pt_schoolhousenormal';
+    src: url('ptschoolhouse-webfont.woff2') format('woff2'), url('ptschoolhouse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+BODY {
+    margin: 30px;
+    font-family: 'pt_schoolhousenormal';
+    background-color: black;
+    color: white;
+}
+
+A {
+    text-decoration: none;
+    color: white;
+}
+
+#buttons {
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+#courses {
+    padding-top: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+#courseCount {
+    font-size: 70%;
+}
+
+#loading {
+    width: 100%;
+    text-align: center;
+}
+
+#loading IMG {
+    width: 50%;
+}
+
+.course {
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 110%;
+    text-align: center;
+    position: relative;
+}
+
+.courseIcon {
+    text-align: center;
+}
+
+.courseImg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.courseBanner {
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    z-index: 20;
+}
+
+.courseTour {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    margin: -4px 0 0 -4px;
+    color: black;
+    font-size: 95%;
+    z-index: 30;
+}
+
+.courseBg {
+    position: absolute;
+    display: none;
+}
+
+.courseName {
+    padding-top: 10px;
+    min-height: 50px;
+    vertical-align: bottom;
+}

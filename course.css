@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'pt_schoolhousenormal';
+    src: url('ptschoolhouse-webfont.woff2') format('woff2'), url('ptschoolhouse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+BODY {
+    margin: 30px;
+    font-family: 'pt_schoolhousenormal';
+    background-color: black;
+    color: white;
+    font-size: 150%;
+}
+
+A {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+#loading {
+    width: 100%;
+    text-align: center;
+}
+
+#loading IMG {
+    width: 50%;
+}
+
+#course {
+    margin: 40px 0;
+    width: 100%;
+    min-width: 800px;
+    overflow: hidden;
+}
+
+#icon {
+    float: left;
+    margin-right: 40px;
+}
+
+#icon IMG {
+    height: 450px;
+}
+
+#name {
+    padding-top: 40px;
+}
+
+#tour {
+    padding-bottom: 30px;
+}
+
+#triviaNotes {
+    padding-bottom: 30px;
+}

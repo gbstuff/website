@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'pt_schoolhousenormal';
+    src: url('ptschoolhouse-webfont.woff2') format('woff2'), url('ptschoolhouse-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+BODY {
+    margin: 30px;
+    font-family: 'pt_schoolhousenormal';
+    font-size: 25px;
+    line-height: 175%;
+    color: lightskyblue;
+    background-color: black;
+}
+
+A {
+    color: lightgreen;
+}

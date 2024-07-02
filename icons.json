@@ -1,0 +1,712 @@
+{
+  "Desert Island 2" : {
+    "forced-powerup" : "28",
+    "icon" : "Desert Island 2.png",
+    "tour" : 15
+  },
+  "Oil Field" : {
+    "forced-powerup" : "-1",
+    "icon" : "Oil Field.png",
+    "tour" : 31
+  },
+  "The Ring" : {
+    "forced-powerup" : "-1",
+    "icon" : "The Ring.png",
+    "tour" : 39
+  },
+  "Ghost Ship" : {
+    "forced-powerup" : "-1",
+    "icon" : "Ghost Ship.png",
+    "tour" : 31
+  },
+  "Voxel Mines" : {
+    "forced-powerup" : "-1",
+    "icon" : "Voxel Mines.png",
+    "tour" : 21
+  },
+  "Castle Bortle" : {
+    "forced-powerup" : "-1",
+    "icon" : "Castle Bortle.png",
+    "tour" : 20
+  },
+  "Movers" : {
+    "forced-powerup" : "-1",
+    "icon" : "Movers.png",
+    "tour" : 43
+  },
+  "Golfy" : {
+    "forced-powerup" : "-1",
+    "icon" : "Golfy.png",
+    "tour" : 1
+  },
+  "Dry Planet" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dry Planet.png",
+    "tour" : 15
+  },
+  "Bergland" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bergland.png",
+    "tour" : 14
+  },
+  "Pines" : {
+    "forced-powerup" : "-1",
+    "icon" : "Pines.png",
+    "tour" : 24
+  },
+  "Emerald Valley" : {
+    "forced-powerup" : "-1",
+    "icon" : "Emerald Valley.png",
+    "tour" : 10
+  },
+  "Beach Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Beach Back 9.png",
+    "tour" : 21
+  },
+  "Space" : {
+    "forced-powerup" : "-1",
+    "icon" : "Space.png",
+    "tour" : 49
+  },
+  "Shroomland" : {
+    "forced-powerup" : "-1",
+    "icon" : "Shroomland.png",
+    "tour" : 21
+  },
+  "Star Ship" : {
+    "forced-powerup" : "-1",
+    "icon" : "Star Ship.png",
+    "tour" : 29
+  },
+  "Science Lab" : {
+    "forced-powerup" : "-1",
+    "icon" : "Science Lab.png",
+    "tour" : 23
+  },
+  "Wizard School" : {
+    "forced-powerup" : "-1",
+    "icon" : "Wizard School.png",
+    "tour" : 23
+  },
+  "Cyber City" : {
+    "forced-powerup" : "-1",
+    "icon" : "Cyber City.png",
+    "tour" : 29
+  },
+  "Wild West" : {
+    "forced-powerup" : "-1",
+    "icon" : "Wild West.png",
+    "tour" : 15
+  },
+  "Cauldrons" : {
+    "forced-powerup" : "-1",
+    "icon" : "Cauldrons.png",
+    "tour" : 15
+  },
+  "Lakes" : {
+    "forced-powerup" : "-1",
+    "icon" : "Lakes.png",
+    "tour" : 3
+  },
+  "Sewer Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Sewer Land.png",
+    "tour" : 30
+  },
+  "Old El Blitzo" : {
+    "forced-powerup" : "-1",
+    "icon" : "Old El Blitzo.png",
+    "tour" : 18
+  },
+  "Pleasant Night" : {
+    "forced-powerup" : "-1",
+    "icon" : "Pleasant Night.png",
+    "tour" : 34
+  },
+  "Festival" : {
+    "forced-powerup" : "-1",
+    "icon" : "Festival.png",
+    "tour" : 20
+  },
+  "Dunes" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dunes.png",
+    "tour" : 4
+  },
+  "Mystic Mines" : {
+    "forced-powerup" : "-1",
+    "icon" : "Mystic Mines.png",
+    "tour" : 10
+  },
+  "Community" : {
+    "forced-powerup" : "-1",
+    "icon" : "Community.png",
+    "tour" : 41
+  },
+  "Tanks" : {
+    "forced-powerup" : "-1",
+    "icon" : "Tanks.png",
+    "tour" : 38
+  },
+  "Planet Golfora" : {
+    "forced-powerup" : "-1",
+    "icon" : "Planet Golfora.png",
+    "tour" : 30
+  },
+  "Forest" : {
+    "forced-powerup" : "-1",
+    "icon" : "Forest.png",
+    "tour" : 41
+  },
+  "Arabia" : {
+    "forced-powerup" : "-1",
+    "icon" : "Arabia.png",
+    "tour" : 26
+  },
+  "Heart Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Heart Land.png",
+    "tour" : 30
+  },
+  "Rocky Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Rocky Land.png",
+    "tour" : 26
+  },
+  "Depths" : {
+    "forced-powerup" : "-1",
+    "icon" : "Depths.png",
+    "tour" : 34
+  },
+  "Safe House" : {
+    "forced-powerup" : "-1",
+    "icon" : "Safe House.png",
+    "tour" : 15
+  },
+  "Light Show" : {
+    "forced-powerup" : "-1",
+    "icon" : "Light Show.png",
+    "tour" : 45
+  },
+  "Bone Yard" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bone Yard.png",
+    "tour" : 15
+  },
+  "Spooky" : {
+    "forced-powerup" : "-1",
+    "icon" : "Spooky.png",
+    "tour" : 42
+  },
+  "Warehouse" : {
+    "forced-powerup" : "7",
+    "icon" : "Warehouse.png",
+    "tour" : 17
+  },
+  "Mag Sub" : {
+    "forced-powerup" : "-1",
+    "icon" : "Mag Sub.png",
+    "tour" : 40
+  },
+  "Gooey Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Gooey Land.png",
+    "tour" : 5
+  },
+  "Meadow" : {
+    "forced-powerup" : "-1",
+    "icon" : "Meadow.png",
+    "tour" : 21
+  },
+  "Blades" : {
+    "forced-powerup" : "-1",
+    "icon" : "Blades.png",
+    "tour" : 36
+  },
+  "Strato-Gardens" : {
+    "forced-powerup" : "-1",
+    "icon" : "Strato-Gardens.png",
+    "tour" : 18
+  },
+  "Baskets" : {
+    "forced-powerup" : "-1",
+    "icon" : "Baskets.png",
+    "tour" : 16
+  },
+  "City of the Dead" : {
+    "forced-powerup" : "-1",
+    "icon" : "City of the Dead.png",
+    "tour" : 44
+  },
+  "Test Lab" : {
+    "forced-powerup" : "-1",
+    "icon" : "Test Lab.png",
+    "tour" : 27
+  },
+  "Heckgate" : {
+    "forced-powerup" : "-1",
+    "icon" : "Heckgate.png",
+    "tour" : 14
+  },
+  "Rooftops" : {
+    "forced-powerup" : "-1",
+    "icon" : "Rooftops.png",
+    "tour" : 28
+  },
+  "Art Gallery" : {
+    "forced-powerup" : "-1",
+    "icon" : "Art Gallery.png",
+    "tour" : 17
+  },
+  "Snow Field" : {
+    "forced-powerup" : "-1",
+    "icon" : "Snow Field.png",
+    "tour" : 35
+  },
+  "Bifrost" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bifrost.png",
+    "tour" : 18
+  },
+  "Cake Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Cake Back 9.png",
+    "tour" : 35
+  },
+  "Gravity Grove" : {
+    "forced-powerup" : "-1",
+    "icon" : "Gravity Grove.png",
+    "tour" : 32
+  },
+  "Viking" : {
+    "forced-powerup" : "-1",
+    "icon" : "Viking.png",
+    "tour" : 15
+  },
+  "Rink" : {
+    "forced-powerup" : "-1",
+    "icon" : "Rink.png",
+    "tour" : 46
+  },
+  "Homeworld Cavern" : {
+    "forced-powerup" : "-1",
+    "icon" : "Homeworld Cavern.png",
+    "tour" : 15
+  },
+  "Fast Food" : {
+    "forced-powerup" : "-1",
+    "icon" : "Fast Food.png",
+    "tour" : 47
+  },
+  "Steam Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Steam Land.png",
+    "tour" : 39
+  },
+  "Dojo Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dojo Back 9.png",
+    "tour" : 20
+  },
+  "Trenches" : {
+    "forced-powerup" : "-1",
+    "icon" : "Trenches.png",
+    "tour" : 9
+  },
+  "Goblin Raid" : {
+    "forced-powerup" : "-1",
+    "icon" : "Goblin Raid.png",
+    "tour" : 40
+  },
+  "The Shack" : {
+    "forced-powerup" : "-1",
+    "icon" : "The Shack.png",
+    "tour" : 8
+  },
+  "World Loop" : {
+    "forced-powerup" : "-1",
+    "icon" : "World Loop.png",
+    "tour" : 15
+  },
+  "Bux Vault" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bux Vault.png",
+    "tour" : 23
+  },
+  "Olden Tree" : {
+    "forced-powerup" : "-1",
+    "icon" : "Olden Tree.png",
+    "tour" : 50
+  },
+  "Tropics" : {
+    "forced-powerup" : "-1",
+    "icon" : "Tropics.png",
+    "tour" : 10
+  },
+  "Bumper Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bumper Back 9.png",
+    "tour" : 15
+  },
+  "Mechanical" : {
+    "forced-powerup" : "-1",
+    "icon" : "Mechanical.png",
+    "tour" : 47
+  },
+  "Multicourse" : {
+    "forced-powerup" : "-1",
+    "icon" : "Multicourse.png",
+    "tour" : 12
+  },
+  "Robo City" : {
+    "forced-powerup" : "-1",
+    "icon" : "Robo City.png",
+    "tour" : 17
+  },
+  "Raspberry Hills" : {
+    "forced-powerup" : "-1",
+    "icon" : "Raspberry Hills.png",
+    "tour" : 1
+  },
+  "Beach" : {
+    "forced-powerup" : "-1",
+    "icon" : "Beach.png",
+    "tour" : 14
+  },
+  "Cloudy Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Cloudy Land.png",
+    "tour" : 45
+  },
+  "Gingerbread" : {
+    "forced-powerup" : "-1",
+    "icon" : "Gingerbread.png",
+    "tour" : 18
+  },
+  "Roswell" : {
+    "forced-powerup" : "-1",
+    "icon" : "Roswell.png",
+    "tour" : 40
+  },
+  "Bedrock" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bedrock.png",
+    "tour" : 33
+  },
+  "Minty" : {
+    "forced-powerup" : "-1",
+    "icon" : "Minty.png",
+    "tour" : 28
+  },
+  "Factory" : {
+    "forced-powerup" : "-1",
+    "icon" : "Factory.png",
+    "tour" : 43
+  },
+  "Acid" : {
+    "forced-powerup" : "-1",
+    "icon" : "Acid.png",
+    "tour" : 39
+  },
+  "Olympiad" : {
+    "forced-powerup" : "-1",
+    "icon" : "Olympiad.png",
+    "tour" : 6
+  },
+  "Shipyard" : {
+    "forced-powerup" : "-1",
+    "icon" : "Shipyard.png",
+    "tour" : 10
+  },
+  "Steamboats" : {
+    "forced-powerup" : "-1",
+    "icon" : "Steamboats.png",
+    "tour" : 25
+  },
+  "Volcanic" : {
+    "forced-powerup" : "-1",
+    "icon" : "Volcanic.png",
+    "tour" : 18
+  },
+  "Ant Hills" : {
+    "forced-powerup" : "-1",
+    "icon" : "Ant Hills.png",
+    "tour" : 37
+  },
+  "Caramel Cave" : {
+    "forced-powerup" : "-1",
+    "icon" : "Caramel Cave.png",
+    "tour" : 10
+  },
+  "Noir City" : {
+    "forced-powerup" : "-1",
+    "icon" : "Noir City.png",
+    "tour" : 30
+  },
+  "Garden" : {
+    "forced-powerup" : "-1",
+    "icon" : "Garden.png",
+    "tour" : 19
+  },
+  "Dungeon Map" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dungeon Map.png",
+    "tour" : 32
+  },
+  "Mars Colony" : {
+    "forced-powerup" : "-1",
+    "icon" : "Mars Colony.png",
+    "tour" : 9
+  },
+  "Masters" : {
+    "forced-powerup" : "-1",
+    "icon" : "Masters.png",
+    "tour" : 26
+  },
+  "Shielded Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Shielded Land.png",
+    "tour" : 21
+  },
+  "Laser Base" : {
+    "forced-powerup" : "-1",
+    "icon" : "Laser Base.png",
+    "tour" : 17
+  },
+  "Olympus" : {
+    "forced-powerup" : "-1",
+    "icon" : "Olympus.png",
+    "tour" : 21
+  },
+  "Pipe Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Pipe Land.png",
+    "tour" : 10
+  },
+  "High Rise" : {
+    "forced-powerup" : "-1",
+    "icon" : "High Rise.png",
+    "tour" : 5
+  },
+  "Desert Island" : {
+    "forced-powerup" : "19",
+    "icon" : "Desert Island.png",
+    "tour" : 23
+  },
+  "Caves" : {
+    "forced-powerup" : "-1",
+    "icon" : "Caves.png",
+    "tour" : 19
+  },
+  "Dungeon" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dungeon.png",
+    "tour" : 29
+  },
+  "Buzzland" : {
+    "forced-powerup" : "-1",
+    "icon" : "Buzzland.png",
+    "tour" : 44
+  },
+  "Bumper Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bumper Land.png",
+    "tour" : 48
+  },
+  "Gears" : {
+    "forced-powerup" : "-1",
+    "icon" : "Gears.png",
+    "tour" : 15
+  },
+  "City Park" : {
+    "forced-powerup" : "-1",
+    "icon" : "City Park.png",
+    "tour" : 11
+  },
+  "Lanterns Back 9 " : {
+    "forced-powerup" : "-1",
+    "icon" : "Lanterns Back 9 .png",
+    "tour" : 46
+  },
+  "Hoops" : {
+    "forced-powerup" : "-1",
+    "icon" : "Hoops.png",
+    "tour" : 22
+  },
+  "Line City" : {
+    "forced-powerup" : "-1",
+    "icon" : "Line City.png",
+    "tour" : 23
+  },
+  "Depths 2" : {
+    "forced-powerup" : "-1",
+    "icon" : "Depths 2.png",
+    "tour" : 22
+  },
+  "Wasteland" : {
+    "forced-powerup" : "-1",
+    "icon" : "Wasteland.png",
+    "tour" : 50
+  },
+  "Sewer Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Sewer Back 9.png",
+    "tour" : 23
+  },
+  "Lanterns" : {
+    "forced-powerup" : "-1",
+    "icon" : "Lanterns.png",
+    "tour" : 46
+  },
+  "Speedy" : {
+    "forced-powerup" : "-1",
+    "icon" : "Speedy.png",
+    "tour" : 33
+  },
+  "Cake" : {
+    "forced-powerup" : "-1",
+    "icon" : "Cake.png",
+    "tour" : 35
+  },
+  "Galaxy Zone" : {
+    "forced-powerup" : "-1",
+    "icon" : "Galaxy Zone.png",
+    "tour" : 15
+  },
+  "Stony Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Stony Land.png",
+    "tour" : 12
+  },
+  "Dojo" : {
+    "forced-powerup" : "-1",
+    "icon" : "Dojo.png",
+    "tour" : 20
+  },
+  "Gym" : {
+    "forced-powerup" : "-1",
+    "icon" : "Gym.png",
+    "tour" : 8
+  },
+  "Community Back 9" : {
+    "forced-powerup" : "-1",
+    "icon" : "Community Back 9.png",
+    "tour" : 41
+  },
+  "8-Bit" : {
+    "forced-powerup" : "-1",
+    "icon" : "8-Bit.png",
+    "tour" : 37
+  },
+  "Crazy Cactus" : {
+    "forced-powerup" : "-1",
+    "icon" : "Crazy Cactus.png",
+    "tour" : 42
+  },
+  "Heck" : {
+    "forced-powerup" : "-1",
+    "icon" : "Heck.png",
+    "tour" : 7
+  },
+  "Lucky Links" : {
+    "forced-powerup" : "-1",
+    "icon" : "Lucky Links.png",
+    "tour" : 27
+  },
+  "Portal Lab" : {
+    "forced-powerup" : "-1",
+    "icon" : "Portal Lab.png",
+    "tour" : 6
+  },
+  "The Sticks" : {
+    "forced-powerup" : "-1",
+    "icon" : "The Sticks.png",
+    "tour" : 7
+  },
+  "Magnet Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Magnet Land.png",
+    "tour" : 25
+  },
+  "Jurassic Falls" : {
+    "forced-powerup" : "-1",
+    "icon" : "Jurassic Falls.png",
+    "tour" : 23
+  },
+  "Golfing Over It" : {
+    "forced-powerup" : "-1",
+    "icon" : "Golfing Over It.png",
+    "tour" : 31
+  },
+  "Ghost House" : {
+    "forced-powerup" : "-1",
+    "icon" : "Ghost House.png",
+    "tour" : 38
+  },
+  "Football" : {
+    "forced-powerup" : "-1",
+    "icon" : "Football.png",
+    "tour" : 12
+  },
+  "Sticky Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Sticky Land.png",
+    "tour" : 16
+  },
+  "Pleasant Land" : {
+    "forced-powerup" : "-1",
+    "icon" : "Pleasant Land.png",
+    "tour" : 2
+  },
+  "Mushrooms" : {
+    "forced-powerup" : "-1",
+    "icon" : "Mushrooms.png",
+    "tour" : 25
+  },
+  "Graphy Desert" : {
+    "forced-powerup" : "-1",
+    "icon" : "Graphy Desert.png",
+    "tour" : 24
+  },
+  "Antigrav Lab" : {
+    "forced-powerup" : "-1",
+    "icon" : "Antigrav Lab.png",
+    "tour" : 13
+  },
+  "Chalky" : {
+    "forced-powerup" : "-1",
+    "icon" : "Chalky.png",
+    "tour" : 22
+  },
+  "Autumn Meadows 2" : {
+    "forced-powerup" : "-1",
+    "icon" : "Autumn Meadows 2.png",
+    "tour" : 10
+  },
+  "Ice Caves" : {
+    "forced-powerup" : "-1",
+    "icon" : "Ice Caves.png",
+    "tour" : 10
+  },
+  "Bouncy Castle" : {
+    "forced-powerup" : "-1",
+    "icon" : "Bouncy Castle.png",
+    "tour" : 27
+  },
+  "Farmland" : {
+    "forced-powerup" : "-1",
+    "icon" : "Farmland.png",
+    "tour" : 22
+  },
+  "Ski Lodge" : {
+    "forced-powerup" : "-1",
+    "icon" : "Ski Lodge.png",
+    "tour" : 19
+  },
+  "Crystal Peak" : {
+    "forced-powerup" : "-1",
+    "icon" : "Crystal Peak.png",
+    "tour" : 35
+  }
+}
